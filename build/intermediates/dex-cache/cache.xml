@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/madhavchhura/Documents/Android_Projects/Ribbit/app/build/intermediates/pre-dexed/debug/Parse-1.3.9-832f92269e4851bdae552a8ff354c99d8e64bd6d.jar"
+        jar="/Users/madhavchhura/Documents/Android_Projects/Ribbit/app/libs/Parse-1.3.9.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="077b21d82e098a5d95e46b1868c664a23ada163a"/>
+    <item
+        dex="/Users/madhavchhura/Documents/Android_Projects/Ribbit/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>
