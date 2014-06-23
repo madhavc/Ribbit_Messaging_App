@@ -49,19 +49,20 @@ public class MainActivity extends FragmentActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
         //This is used to show the progress that is being done while the window is loading.
-        requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+        //requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 
         //This sets the content of the main activity.
         setContentView(R.layout.activity_main);
 		
 		ParseAnalytics.trackAppOpened(getIntent());
-		//Here we instantiated the parse
+		//Here we instantiated the parse object which is used for creating new users and logging.
 		ParseUser currentUser = ParseUser.getCurrentUser();
 		if (currentUser == null) {
-
+            //Navigate to login method is called.
 			navigateToLogin();
 		}
 		else {
+            //This keeps a log of the user signed in.
 			Log.i(TAG, currentUser.getUsername());
 		}
 
@@ -100,6 +101,9 @@ public class MainActivity extends FragmentActivity implements
 					.setTabListener(this));
 		}
 	}
+    /* This method is used to log the user in.
+     * When the method is called the LoginActivity is called
+     * and leads the user to a login screen. */
 
 	private void navigateToLogin() {
 		Intent intent = new Intent(this, LoginActivity.class);

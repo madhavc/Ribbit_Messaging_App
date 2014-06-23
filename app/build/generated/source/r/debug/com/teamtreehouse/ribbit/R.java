@@ -18,7 +18,6 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_login=0x7f08000a;
         public static final int action_logout=0x7f080009;
         public static final int action_settings=0x7f080008;
         public static final int emailField=0x7f080005;
